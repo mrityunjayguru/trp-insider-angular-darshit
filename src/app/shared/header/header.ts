@@ -8,5 +8,6 @@ import { RouterLink } from '@angular/router';
   styleUrl: './header.css',
 })
 export class Header {
+  mobileMenuOpen: boolean = false;
 
 }

@@ -191,3 +191,9 @@ body {
   border-radius: 5px;
   background: white;
 }
+
+z-tab-group {
+  --tab-active-color: var(--primary);/* Tailwind green-500 */
+  --tab-text-color: #050914; /* Tailwind gray-500 */
+  --tab-active-text-color: var(--primary); /* Tailwind gray-900 */
+}
